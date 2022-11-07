@@ -22,8 +22,10 @@ function randomNum(x, y) {
 function descript(saldo, valorTransf, limiteTransf) {
   if (valorTransf > limiteTransf) {
     return "Limite atingido";
+    
   } else if (saldo < valorTransf) {
     return "Saldo insuficiente";
+
   } else {
     return "Aprovado";
   }
